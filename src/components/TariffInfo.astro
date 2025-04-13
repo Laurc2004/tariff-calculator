@@ -1,0 +1,49 @@
+---
+// 关税信息组件 - 提供关税相关知识和说明
+---
+
+<div class="max-w-4xl mx-auto mt-8 p-6 bg-white rounded-lg shadow-md">
+  <h2 class="text-xl font-bold text-primary mb-4">关税知识</h2>
+  
+  <div class="space-y-4">
+    <div>
+      <h3 class="font-medium text-lg">什么是关税？</h3>
+      <p class="text-gray-700">关税是一国政府对进口商品征收的税款，是国际贸易中最常见的贸易壁垒形式。关税的征收不仅可以为国家提供财政收入，还可以保护国内产业免受国外竞争。</p>
+    </div>
+    
+    <div>
+      <h3 class="font-medium text-lg">关税计算方式</h3>
+      <p class="text-gray-700">关税计算通常基于商品的完税价格，即商品价格加上运费和保险费用。计算公式为：</p>
+      <div class="bg-gray-50 p-3 rounded my-2">
+        <p class="font-mono">关税金额 = 完税价格 × 关税税率</p>
+        <p class="font-mono">增值税金额 = (完税价格 + 关税金额) × 增值税税率</p>
+        <p class="font-mono">总税费 = 关税金额 + 增值税金额</p>
+      </div>
+    </div>
+    
+    <div>
+      <h3 class="font-medium text-lg">影响关税的因素</h3>
+      <ul class="list-disc pl-5 text-gray-700">
+        <li>商品类别 - 不同类别的商品适用不同的关税税率</li>
+        <li>原产国 - 根据原产国的不同，同一商品可能适用不同的关税税率</li>
+        <li>贸易协定 - 自由贸易协定可能降低或免除某些商品的关税</li>
+        <li>特殊政策 - 某些特殊商品可能有额外的关税政策</li>
+      </ul>
+    </div>
+    
+    <div>
+      <h3 class="font-medium text-lg">使用说明</h3>
+      <ol class="list-decimal pl-5 text-gray-700">
+        <li>选择商品的原产国</li>
+        <li>选择商品类别</li>
+        <li>输入商品价格（人民币）</li>
+        <li>输入运费和保险费用（人民币）</li>
+        <li>点击"计算关税"按钮获取结果</li>
+      </ol>
+    </div>
+  </div>
+  
+  <div class="mt-6 text-sm text-gray-500">
+    <p>注意：本计算器提供的结果仅供参考，实际关税可能因政策变化、商品具体情况等因素而有所不同。请以海关实际征收为准。</p>
+  </div>
+</div>

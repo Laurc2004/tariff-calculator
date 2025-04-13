@@ -1,22 +1,20 @@
 <!doctype html>
-<html lang="en">
+<html lang="zh-CN">
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro Basics</title>
+		<title>在线关税计算器 - 快速计算进口商品关税</title>
+		<meta name="description" content="使用我们的在线关税计算器，快速准确地计算进口商品的关税和税费。" />
 	</head>
-	<body>
+	<body class="min-h-screen bg-gray-50">
 		<slot />
 	</body>
 </html>
 
-<style>
-	html,
-	body {
-		margin: 0;
-		width: 100%;
-		height: 100%;
-	}
+<style is:global>
+	@tailwind base;
+	@tailwind components;
+	@tailwind utilities;
 </style>
