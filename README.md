@@ -2,6 +2,10 @@
 
 一个基于Astro和TailwindCSS构建的在线关税计算工具，帮助用户快速估算进口商品的关税和增值税。
 
+## 🌐 在线演示
+
+访问 [在线关税计算器](https://laurc2004.github.io/tariff-calculator/) 立即体验！
+
 ## ✨ 功能特点
 
 - 支持多个国家/地区的关税计算
@@ -21,7 +25,7 @@
 
 1. 克隆项目
 ```bash
-git clone https://github.com/[your-username]/tariff-calculator.git
+git clone https://github.com/Laurc2004/tariff-calculator.git
 cd tariff-calculator
 ```
 
@@ -35,7 +39,7 @@ npm install
 npm run dev
 ```
 
-4. 在浏览器中访问 `http://localhost:4321`
+4. 在浏览器中访问 `http://localhost:4321/tariff-calculator`
 
 ## 📦 构建部署
 
